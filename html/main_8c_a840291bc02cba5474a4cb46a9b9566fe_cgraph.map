@@ -1,0 +1,7 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="The application entry point." alt="" coords="5,56,56,83"/>
+<area shape="rect" id="node2" href="$main_8c.html#ae89fdd15729ad41a66911190fcbab23a" title="GPIO Initialization Function." alt="" coords="134,5,237,32"/>
+<area shape="rect" id="node3" href="$main_8c.html#a6db1014d713f6f5c0f52a13299ee0733" title="USART2 Initialization Function." alt="" coords="104,56,267,83"/>
+<area shape="rect" id="node5" href="$main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration." alt="" coords="114,107,257,133"/>
+<area shape="rect" id="node4" href="$main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence." alt="" coords="315,81,416,108"/>
+</map>
