@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initialise_5fmonitor_5fhandles_35',['initialise_monitor_handles',['../syscalls_8c.html#a25c7f100d498300fff65568c2fcfe639',1,'syscalls.c']]]
+  ['nmi_5fhandler_39',['NMI_Handler',['../stm32f0xx__it_8c.html#a6ad7a5e3ee69cb6db6a6b9111ba898bc',1,'stm32f0xx_it.c']]]
 ];

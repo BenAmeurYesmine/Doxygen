@@ -23,13 +23,15 @@ static void \mbox{\hyperlink{main_8c_ae89fdd15729ad41a66911190fcbab23a}{MX\+\_\+
 static void \mbox{\hyperlink{main_8c_a6db1014d713f6f5c0f52a13299ee0733}{MX\+\_\+\+USART2\+\_\+\+UART\+\_\+\+Init}} (void)
 \begin{DoxyCompactList}\small\item\em USART2 Initialization Function. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
-\item 
+\begin{DoxyCompactList}\small\item\em The application entry point. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{main_8c_a1730ffe1e560465665eb47d9264826f9}{Error\+\_\+\+Handler}} (void)
 \begin{DoxyCompactList}\small\item\em This function is executed in case of error occurrence. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Variables}
 \begin{DoxyCompactItemize}
 \item 
 UART\+\_\+\+Handle\+Type\+Def \mbox{\hyperlink{main_8c_aa9479c261d65eecedd3d9582f7f0f89c}{huart2}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{main_8c_a0e146adbb4fcc792735099464fd8e3f4}{Tx\+Buf}} \mbox{[}10\mbox{]}
 \end{DoxyCompactItemize}
 
 
@@ -61,44 +63,31 @@ This function is executed in case of error occurrence.
 \end{DoxyRetVals}
 
 
-Definition at line 251 of file main.\+c.
+Definition at line 234 of file main.\+c.
 
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{main_8c_a1730ffe1e560465665eb47d9264826f9_icgraph}
-\end{center}
-\end{figure}
+Here is the caller graph for this function\+:
+% FIG 0
 \mbox{\Hypertarget{main_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
 \index{main.c@{main.c}!main@{main}}
 \index{main@{main}!main.c@{main.c}}
 \doxysubsubsection{\texorpdfstring{main()}{main()}}
 {\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
 
-\begin{DoxyVerb}@brief  The application entry point.
-@retval int
-@startuml
- hide footbox
- skinparam BoxPadding 50
- box "Le diagramme de séquence:"
- participant Exemple
- end box
- [-> Exemple: setA()
- Activate Exemple
- Exemple->Exemple: getA()
-\end{DoxyVerb}
-  
 
-Definition at line 76 of file main.\+c.
 
-Here is the call graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph}
-\end{center}
-\end{figure}
+The application entry point. 
+
+
+\begin{DoxyRetVals}{Return values}
+{\em int} & \\
+\hline
+\end{DoxyRetVals}
+
+
+Definition at line 69 of file main.\+c.
+
+Here is the call graph for this function\+:
+% FIG 1
 \mbox{\Hypertarget{main_8c_ae89fdd15729ad41a66911190fcbab23a}\label{main_8c_ae89fdd15729ad41a66911190fcbab23a}} 
 \index{main.c@{main.c}!MX\_GPIO\_Init@{MX\_GPIO\_Init}}
 \index{MX\_GPIO\_Init@{MX\_GPIO\_Init}!main.c@{main.c}}
@@ -121,15 +110,10 @@ GPIO Initialization Function.
 \end{DoxyRetVals}
 
 
-Definition at line 222 of file main.\+c.
+Definition at line 199 of file main.\+c.
 
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=231pt]{main_8c_ae89fdd15729ad41a66911190fcbab23a_icgraph}
-\end{center}
-\end{figure}
+Here is the caller graph for this function\+:
+% FIG 2
 \mbox{\Hypertarget{main_8c_a6db1014d713f6f5c0f52a13299ee0733}\label{main_8c_a6db1014d713f6f5c0f52a13299ee0733}} 
 \index{main.c@{main.c}!MX\_USART2\_UART\_Init@{MX\_USART2\_UART\_Init}}
 \index{MX\_USART2\_UART\_Init@{MX\_USART2\_UART\_Init}!main.c@{main.c}}
@@ -152,7 +136,7 @@ USART2 Initialization Function.
 \end{DoxyRetVals}
 
 
-Definition at line 187 of file main.\+c.
+Definition at line 164 of file main.\+c.
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -161,13 +145,8 @@ Here is the call graph for this function\+:\nopagebreak
 \includegraphics[width=314pt]{main_8c_a6db1014d713f6f5c0f52a13299ee0733_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=276pt]{main_8c_a6db1014d713f6f5c0f52a13299ee0733_icgraph}
-\end{center}
-\end{figure}
+Here is the caller graph for this function\+:
+% FIG 3
 \mbox{\Hypertarget{main_8c_a70af21c671abfcc773614a9a4f63d920}\label{main_8c_a70af21c671abfcc773614a9a4f63d920}} 
 \index{main.c@{main.c}!SystemClock\_Config@{SystemClock\_Config}}
 \index{SystemClock\_Config@{SystemClock\_Config}!main.c@{main.c}}
@@ -183,17 +162,11 @@ System Clock Configuration.
 {\em None} & \\
 \hline
 \end{DoxyRetVals}
-Configure LSE Drive Capability
-
 Initializes the RCC Oscillators according to the specified parameters in the RCC\+\_\+\+Osc\+Init\+Type\+Def structure.
 
 Initializes the CPU, AHB and APB buses clocks
 
-Configure the main internal regulator output voltage
-
-Enable MSI Auto calibration
-
-Definition at line 123 of file main.\+c.
+Definition at line 119 of file main.\+c.
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -202,13 +175,8 @@ Here is the call graph for this function\+:\nopagebreak
 \includegraphics[width=299pt]{main_8c_a70af21c671abfcc773614a9a4f63d920_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=261pt]{main_8c_a70af21c671abfcc773614a9a4f63d920_icgraph}
-\end{center}
-\end{figure}
+Here is the caller graph for this function\+:
+% FIG 4
 
 
 \doxysubsection{Variable Documentation}
@@ -221,4 +189,14 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 Definition at line 43 of file main.\+c.
+
+\mbox{\Hypertarget{main_8c_a0e146adbb4fcc792735099464fd8e3f4}\label{main_8c_a0e146adbb4fcc792735099464fd8e3f4}} 
+\index{main.c@{main.c}!TxBuf@{TxBuf}}
+\index{TxBuf@{TxBuf}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{TxBuf}{TxBuf}}
+{\footnotesize\ttfamily uint8\+\_\+t Tx\+Buf\mbox{[}10\mbox{]}}
+
+
+
+Definition at line 59 of file main.\+c.
 

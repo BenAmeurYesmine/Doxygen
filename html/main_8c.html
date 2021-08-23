@@ -100,6 +100,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a6db1014d713f6f5c0f52a13299ee0733"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART2 Initialization Function.  <a href="main_8c.html#a6db1014d713f6f5c0f52a13299ee0733">More...</a><br /></td></tr>
 <tr class="separator:a6db1014d713f6f5c0f52a13299ee0733"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
+<tr class="memdesc:a840291bc02cba5474a4cb46a9b9566fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application entry point.  <a href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">More...</a><br /></td></tr>
 <tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1730ffe1e560465665eb47d9264826f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a1730ffe1e560465665eb47d9264826f9">Error_Handler</a> (void)</td></tr>
 <tr class="memdesc:a1730ffe1e560465665eb47d9264826f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is executed in case of error occurrence.  <a href="main_8c.html#a1730ffe1e560465665eb47d9264826f9">More...</a><br /></td></tr>
@@ -109,6 +110,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:aa9479c261d65eecedd3d9582f7f0f89c"><td class="memItemLeft" align="right" valign="top">UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#aa9479c261d65eecedd3d9582f7f0f89c">huart2</a></td></tr>
 <tr class="separator:aa9479c261d65eecedd3d9582f7f0f89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e146adbb4fcc792735099464fd8e3f4"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a0e146adbb4fcc792735099464fd8e3f4">TxBuf</a> [10]</td></tr>
+<tr class="separator:a0e146adbb4fcc792735099464fd8e3f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>: Main program body </p>
@@ -142,7 +145,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00251">251</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00234">234</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -151,7 +154,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="This function is executed in case of error occurrence." alt="" coords="315,31,416,57"/>
 <area shape="rect" href="main_8c.html#a6db1014d713f6f5c0f52a13299ee0733" title="USART2 Initialization Function." alt="" coords="104,5,267,32"/>
 <area shape="rect" href="main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration." alt="" coords="114,56,257,83"/>
-<area shape="rect" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,31,56,57"/>
+<area shape="rect" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,31,56,57"/>
 </map>
 </div>
 
@@ -172,29 +175,27 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief  The application entry point.
-@retval int
-@startuml
- hide footbox
- skinparam BoxPadding 50
- box "Le diagramme de séquence:"
- participant Exemple
- end box
- [-&gt; Exemple: setA()
- Activate Exemple
- Exemple-&gt;Exemple: getA()
-</pre>  
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00076">76</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+<p>The application entry point. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">int</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00069">69</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph.png" border="0" usemap="#amain_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph" alt=""/></div>
 <map name="amain_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph" id="amain_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,56,83"/>
+<area shape="rect" title="The application entry point." alt="" coords="5,81,56,108"/>
 <area shape="rect" href="main_8c.html#ae89fdd15729ad41a66911190fcbab23a" title="GPIO Initialization Function." alt="" coords="134,5,237,32"/>
 <area shape="rect" href="main_8c.html#a6db1014d713f6f5c0f52a13299ee0733" title="USART2 Initialization Function." alt="" coords="104,56,267,83"/>
-<area shape="rect" href="main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration." alt="" coords="114,107,257,133"/>
-<area shape="rect" href="main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence." alt="" coords="315,81,416,108"/>
+<area shape="rect" href="apk_8c.html#a34a404a264fe3dae3bbc9659d47fc840" title=" " alt="" coords="131,107,240,133"/>
+<area shape="rect" href="main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration." alt="" coords="114,157,257,184"/>
+<area shape="rect" href="main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence." alt="" coords="315,107,416,133"/>
 </map>
 </div>
 
@@ -238,14 +239,14 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00222">222</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00199">199</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8c_ae89fdd15729ad41a66911190fcbab23a_icgraph.png" border="0" usemap="#amain_8c_ae89fdd15729ad41a66911190fcbab23a_icgraph" alt=""/></div>
 <map name="amain_8c_ae89fdd15729ad41a66911190fcbab23a_icgraph" id="amain_8c_ae89fdd15729ad41a66911190fcbab23a_icgraph">
 <area shape="rect" title="GPIO Initialization Function." alt="" coords="104,5,207,32"/>
-<area shape="rect" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,56,32"/>
 </map>
 </div>
 
@@ -289,7 +290,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00187">187</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00164">164</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -305,7 +306,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="main_8c_a6db1014d713f6f5c0f52a13299ee0733_icgraph.png" border="0" usemap="#amain_8c_a6db1014d713f6f5c0f52a13299ee0733_icgraph" alt=""/></div>
 <map name="amain_8c_a6db1014d713f6f5c0f52a13299ee0733_icgraph" id="amain_8c_a6db1014d713f6f5c0f52a13299ee0733_icgraph">
 <area shape="rect" title="USART2 Initialization Function." alt="" coords="104,5,267,32"/>
-<area shape="rect" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,56,32"/>
 </map>
 </div>
 
@@ -334,13 +335,10 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<p>Configure LSE Drive Capability</p>
 <p>Initializes the RCC Oscillators according to the specified parameters in the RCC_OscInitTypeDef structure.</p>
 <p>Initializes the CPU, AHB and APB buses clocks</p>
-<p>Configure the main internal regulator output voltage</p>
-<p>Enable MSI Auto calibration</p>
 
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00123">123</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00119">119</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -356,7 +354,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="main_8c_a70af21c671abfcc773614a9a4f63d920_icgraph.png" border="0" usemap="#amain_8c_a70af21c671abfcc773614a9a4f63d920_icgraph" alt=""/></div>
 <map name="amain_8c_a70af21c671abfcc773614a9a4f63d920_icgraph" id="amain_8c_a70af21c671abfcc773614a9a4f63d920_icgraph">
 <area shape="rect" title="System Clock Configuration." alt="" coords="104,5,247,32"/>
-<area shape="rect" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,56,32"/>
 </map>
 </div>
 
@@ -376,6 +374,22 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00043">43</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a0e146adbb4fcc792735099464fd8e3f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e146adbb4fcc792735099464fd8e3f4">&#9670;&nbsp;</a></span>TxBuf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t TxBuf[10]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00059">59</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>

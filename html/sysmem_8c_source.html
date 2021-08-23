@@ -94,7 +94,7 @@ $(function() {
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="comment">/* Protect heap from growing into the reserved MSP stack */</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="sysmem_8c.html#a2cf862d604e9c7cfcf0528a0f539a6a5">__sbrk_heap_end</a> + incr &gt; max_heap)</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="syscalls_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a> = ENOMEM;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    errno = ENOMEM;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)-1;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  }</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
@@ -103,7 +103,6 @@ $(function() {
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)prev_heap_end;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
-<div class="ttc" id="asyscalls_8c_html_ad65a8842cc674e3ddf69355898c0ecbf"><div class="ttname"><a href="syscalls_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></div><div class="ttdeci">int errno</div></div>
 <div class="ttc" id="asysmem_8c_html_a2cf862d604e9c7cfcf0528a0f539a6a5"><div class="ttname"><a href="sysmem_8c.html#a2cf862d604e9c7cfcf0528a0f539a6a5">__sbrk_heap_end</a></div><div class="ttdeci">static uint8_t * __sbrk_heap_end</div><div class="ttdef"><b>Definition:</b> <a href="sysmem_8c_source.html#l00031">sysmem.c:31</a></div></div>
 <div class="ttc" id="asysmem_8c_html_afcc86b0f227230278459bfaa6e3a2961"><div class="ttname"><a href="sysmem_8c.html#afcc86b0f227230278459bfaa6e3a2961">_sbrk</a></div><div class="ttdeci">void * _sbrk(ptrdiff_t incr)</div><div class="ttdoc">_sbrk() allocates memory to the newlib heap and is used by malloc and others from the C library</div><div class="ttdef"><b>Definition:</b> <a href="sysmem_8c_source.html#l00054">sysmem.c:54</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['error_5fhandler_93',['Error_Handler',['../main_8c.html#a1730ffe1e560465665eb47d9264826f9',1,'main.c']]]
+  ['initialise_5fmonitor_5fhandles_95',['initialise_monitor_handles',['../syscalls_8c.html#a25c7f100d498300fff65568c2fcfe639',1,'syscalls.c']]]
 ];

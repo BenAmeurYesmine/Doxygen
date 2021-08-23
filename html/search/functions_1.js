@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['busfault_5fhandler_91',['BusFault_Handler',['../stm32l4xx__it_8c.html#a850cefb17a977292ae5eb4cafa9976c3',1,'stm32l4xx_it.c']]]
+  ['error_5fhandler_90',['Error_Handler',['../main_8c.html#a1730ffe1e560465665eb47d9264826f9',1,'main.c']]]
 ];
